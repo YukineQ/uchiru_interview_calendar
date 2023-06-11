@@ -25,7 +25,7 @@ const WeekBar = ({ currentWeek, changeWeek }) => {
         <WeekBarContainer>
             <Wrap>
                 {daysOfWeek.map((date) => (
-                    <Day date={date} />
+                    <Day key={date.toString()} date={date} />
                 ))}
             </Wrap>
             <WeekSwitcherContainer>

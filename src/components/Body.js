@@ -8,7 +8,7 @@ const BodyHoursLabel = () => {
     return (
         <HourLabels>
             {hours.map((hour) => (
-                <HourWrapper>
+                <HourWrapper key={hour}>
                     <HourLabel>{hour}</HourLabel>
                 </HourWrapper>
             ))}
