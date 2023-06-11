@@ -39,17 +39,20 @@ const Body = ({ currentWeek, getEventByDate, setSelectedDate }) => {
         <Container>
             <BodyHoursLabel />
             <Table>
-                {weekMatrix.map((day) => (
-                    <tr key={day.toString()}>
-                        {day.map((dayWithHour) => (
-                            <Cell
-                                onClick={() => setSelectedDate(dayWithHour)}
-                                dayWithHour={dayWithHour}
-                                getEventByDate={getEventByDate}
-                            />
-                        ))}
-                    </tr>
-                ))}
+                <tbody>
+                    {weekMatrix.map((day) => (
+                        <tr key={day.toString()}>
+                            {day.map((dayWithHour) => (
+                                <Cell
+                                    key={dayWithHour.toString()}
+                                    onClick={() => setSelectedDate(dayWithHour)}
+                                    dayWithHour={dayWithHour}
+                                    getEventByDate={getEventByDate}
+                                />
+                            ))}
+                        </tr>
+                    ))}
+                </tbody>
             </Table>
         </Container>
     )
