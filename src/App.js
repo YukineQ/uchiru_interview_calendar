@@ -1,4 +1,4 @@
-import Calendar from "./components/calendar/Calendar";
+import Calendar from "./components/Calendar";
 import GlobalStyle from "./globalStyles";
 
 function App() {

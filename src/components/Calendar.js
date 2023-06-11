@@ -4,8 +4,8 @@ import { styled } from 'styled-components'
 import Header from './Header'
 import WeekBar from './WeekBar'
 import Body from './Body'
-import useEvent from '../../hooks/useEvent'
-import useDate from '../../hooks/useDate'
+import useEvent from '../hooks/useEvent'
+import useDate from '../hooks/useDate'
 import Footer from './Footer'
 
 const Calendar = () => {

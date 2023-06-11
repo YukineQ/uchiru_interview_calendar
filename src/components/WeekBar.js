@@ -3,9 +3,9 @@ import { format, isToday } from 'date-fns'
 import { styled } from 'styled-components'
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md'
 
-import IconButton from '../IconButton'
-import getDaysOfWeek from '../../utils/daysOfWeek'
-import formatDate from '../../utils/format'
+import IconButton from './IconButton'
+import getDaysOfWeek from '../utils/daysOfWeek'
+import formatDate from '../utils/format'
 
 const Day = ({ date }) => {
     return (

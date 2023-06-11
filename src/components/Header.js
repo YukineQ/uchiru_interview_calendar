@@ -3,7 +3,7 @@ import { styled } from 'styled-components'
 import { AiOutlinePlus } from 'react-icons/ai'
 import { isValid } from 'date-fns'
 
-import IconButton from '../IconButton'
+import IconButton from './IconButton'
 
 const Header = ({ addEvent }) => {
 

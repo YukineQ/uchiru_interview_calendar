@@ -1,8 +1,8 @@
 import React from 'react'
 import { styled } from 'styled-components'
 
-import getWeekMatrix from '../../utils/weekMatrix'
-import { hours } from '../../utils/hoursOfDay'
+import getWeekMatrix from '../utils/weekMatrix'
+import { hours } from '../utils/hoursOfDay'
 
 const BodyHoursLabel = () => {
     return (
