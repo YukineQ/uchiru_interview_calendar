@@ -1,0 +1,1 @@
+export const hours = Array(23).fill().map((_, i) => ('0' + (i + 1)).slice(-2) + ':00')
