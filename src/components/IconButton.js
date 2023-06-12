@@ -26,8 +26,19 @@ const Button = styled.div`
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
 
-    &:hover {
-      background-color: #d2d1d1;
+
+    @media (hover: hover) {
+        &:hover
+        {
+            background-color: #d2d1d1;
+        }
+    }
+
+    @media (hover: none) {
+        &:active
+        {
+            background-color: #d2d1d1;
+        }
     }
 `
 

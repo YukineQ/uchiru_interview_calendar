@@ -72,8 +72,18 @@ const Hour = styled.div`
     box-sizing: border-box;
     ${props => props.hasEvent ? 'background-color: #ebecff' : 'background-color: white'};
 
-    &:hover{
-        background-color: #b3b7ff;
+    @media (hover: hover) {
+        &:hover
+        {
+            background-color: #b3b7ff;
+        }
+    }
+
+    @media (hover: none) {
+        &:active
+        {
+            background-color: #b3b7ff;
+        }
     }
 `
 
