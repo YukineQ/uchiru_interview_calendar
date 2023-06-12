@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/uchiru_interview_calendar/static/js/main.397f8e68.js",
+    "main.js": "/uchiru_interview_calendar/static/js/main.e075a241.js",
     "static/js/787.5131c6b4.chunk.js": "/uchiru_interview_calendar/static/js/787.5131c6b4.chunk.js",
     "index.html": "/uchiru_interview_calendar/index.html",
-    "main.397f8e68.js.map": "/uchiru_interview_calendar/static/js/main.397f8e68.js.map",
+    "main.e075a241.js.map": "/uchiru_interview_calendar/static/js/main.e075a241.js.map",
     "787.5131c6b4.chunk.js.map": "/uchiru_interview_calendar/static/js/787.5131c6b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.397f8e68.js"
+    "static/js/main.e075a241.js"
   ]
 }
