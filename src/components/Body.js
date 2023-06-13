@@ -61,6 +61,7 @@ const Body = ({ currentWeek, getEventByDate, setSelectedDate }) => {
 const HourLabels = styled.div`
     height: 1012px;
     display: flex; 
+    flex-shrink: 1;
     flex-direction: column; 
     justify-content: space-evenly;
     padding-top: 7px;
